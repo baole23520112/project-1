@@ -138,3 +138,21 @@ a {
     display: flex;
     justify-content: space-between;
 }
+
+.client .desc {
+    color: #7D8589;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 125%;
+}
+
+.client .row-desc {
+    margin-top: 23px;
+}
+
+.client .images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+}
