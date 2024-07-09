@@ -31,7 +31,7 @@ a {
     display: inline-block;
     padding: 18px 16px;
     min-width: 98px;
-    border-radius: 8px;
+    border-radius: 12px;
     background: var(--primary-color);
     color: #FFF;
     text-align: center;
@@ -85,6 +85,7 @@ a {
 .navbar .action-btn {
     padding: 13px 16px;
     margin-left: 18px;
+    border-radius: 8px;
 }
 
 .hero {
@@ -155,4 +156,184 @@ a {
     align-items: center;
     justify-content: space-between;
     margin-top: 70px;
+}
+
+/* ================ Guides ================ */
+.guides {
+    margin-top: 174px;
+}
+
+.guides .sub-title::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    width: 41px;
+    height: 4px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #000339;
+    transform: translate(-50%);
+}
+
+.guides .sub-title {
+    position: relative;
+    color: #000339;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.guides .desc {
+    width: 459px;
+    max-width: 100%;
+    margin: 20px auto 0;
+    margin-right: auto;
+    color: #5A6473;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 187.5%;
+}
+
+.list-guides {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.guide-item {
+    margin: 0 70px;
+    text-align: center;
+}
+
+.guide-item .icon {
+    margin-bottom: 26px;
+}
+
+.guide-item .title {
+    color: #3B3C45;
+    margin-bottom: 10px;
+    font-size: 2.0rem;
+    font-weight: 500;
+    line-height: 110%;
+}
+
+.guide-item .link {
+    color: #0689FF;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.guide-item .arrow {
+    margin-left: 6px;
+}
+
+.guide-cta {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.guide-cta .btn {
+    min-width: 170px;
+    color: #FFF;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+/* =============== Featured =============== */
+.featured {
+    margin-top: 120px;
+    padding: 110px 0;
+    background: #F5FAFE;
+}
+
+.featured .sub-title {
+    color: #000339;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.featured .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.featured .desc {
+    color: #5A6473;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 187.5%;
+}
+
+.featured .link {
+    display: flex;
+    align-items: center;
+    color: #0689FF;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.featured .link .arrow {
+    margin-left: 6px;
+}
+
+.featured .list {
+    display: flex;
+    margin-top: 70px;
+    gap: 30px;
+}
+
+.featured .item {
+    flex: 1;
+    background: #FFF;
+    border-radius: 12px; 
+    box-shadow: 0px 65px 80px -46px rgba(226, 238, 249, 0.60);
+}
+
+.featured .item .thumb {
+    width: 100%;
+    height: 227px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}
+
+.featured .item .body {
+    padding: 17px 20px 24px;
+}
+
+.featured .item .title {
+    color: #000339;
+    font-size: 2.0rem;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.featured .item .desc {
+    margin-top: 11px;
+    color: #A3A6AB;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.featured .item .info {
+    margin-top: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.featured .item .icon~.icon {
+    margin-left: 23px;
+}
+
+.featured .item .label {
+    margin-left: 8px;
+    color: #4D4D52;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.014rem;
 }
