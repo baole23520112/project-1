@@ -3,7 +3,7 @@
 }
 
 :root {
-    --primary-color: #0F1B4C;
+    --primary-color: #0f1b4c;
 }
 
 html {
@@ -33,7 +33,7 @@ a {
     min-width: 98px;
     border-radius: 12px;
     background: var(--primary-color);
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-size: 1.4rem;
     font-weight: 500;
@@ -53,7 +53,7 @@ a {
 /* ===================== Header ================ */
 .header {
     position: relative;
-    background: #E6F0FF;
+    background: #e6f0ff;
     height: 100vh;
 }
 
@@ -73,7 +73,7 @@ a {
 }
 
 .navbar ul a {
-    color: #4F5361;
+    color: #4f5361;
     font-size: 1.4rem;
     font-weight: 500;
     padding: 8px 14px;
@@ -120,7 +120,7 @@ a {
 
 .hero .desc {
     margin-top: 30px;
-    color: #5A6473;
+    color: #5a6473;
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 177.778%;
@@ -139,7 +139,8 @@ a {
 
 /* ============= Clients ============ */
 .client {
-    margin-top: 122px;
+    margin-top: 79px;
+    padding: 43px 0 41px;
 }
 
 .client .row {
@@ -148,7 +149,7 @@ a {
 }
 
 .client .desc {
-    color: #7D8589;
+    color: #7d8589;
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 125%;
@@ -167,7 +168,8 @@ a {
 
 /* ================ Guides ================ */
 .guides {
-    margin-top: 174px;
+    margin-top: 40px;
+    padding: 89px 0 79px;
 }
 
 .guides .sub-title::before {
@@ -197,7 +199,7 @@ a {
     max-width: 100%;
     margin: 20px auto 0;
     margin-right: auto;
-    color: #5A6473;
+    color: #5a6473;
     text-align: center;
     font-size: 1.6rem;
     font-weight: 400;
@@ -220,15 +222,15 @@ a {
 }
 
 .guide-item .title {
-    color: #3B3C45;
+    color: #3b3c45;
     margin-bottom: 10px;
-    font-size: 2.0rem;
+    font-size: 2rem;
     font-weight: 500;
     line-height: 110%;
 }
 
 .guide-item .link {
-    color: #0689FF;
+    color: #0689ff;
     font-size: 1.4rem;
     font-weight: 600;
 }
@@ -245,16 +247,16 @@ a {
 
 .guide-cta .btn {
     min-width: 170px;
-    color: #FFF;
+    color: #fff;
     font-size: 1.3rem;
     font-weight: 500;
 }
 
 /* =============== Featured =============== */
 .featured {
-    margin-top: 120px;
-    padding: 110px 0;
-    background: #F5FAFE;
+    margin-top: 41px;
+    padding: 110px 0 110px;
+    background: #f5fafe;
 }
 
 .featured .sub-title {
@@ -271,7 +273,7 @@ a {
 }
 
 .featured .desc {
-    color: #5A6473;
+    color: #5a6473;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 187.5%;
@@ -280,7 +282,7 @@ a {
 .featured .link {
     display: flex;
     align-items: center;
-    color: #0689FF;
+    color: #0689ff;
     font-size: 1.8rem;
     font-weight: 600;
 }
@@ -297,9 +299,9 @@ a {
 
 .featured .item {
     flex: 1;
-    background: #FFF;
-    border-radius: 12px; 
-    box-shadow: 0px 65px 80px -46px rgba(226, 238, 249, 0.60);
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 65px 80px -46px rgba(226, 238, 249, 0.6);
 }
 
 .featured .item .thumb {
@@ -315,7 +317,7 @@ a {
 
 .featured .item .title a {
     color: #000339;
-    font-size: 2.0rem;
+    font-size: 2rem;
     font-weight: 600;
     line-height: 1.5;
 }
@@ -323,7 +325,7 @@ a {
 .featured .item .desc {
     --line-clamp: 3;
     margin-top: 11px;
-    color: #A3A6AB;
+    color: #a3a6ab;
     font-size: 1.4rem;
     font-weight: 500;
     word-break: break-all;
@@ -335,14 +337,281 @@ a {
     align-items: center;
 }
 
-.featured .item .icon~.icon {
+.featured .item .icon ~ .icon {
     margin-left: 23px;
 }
 
 .featured .item .label {
     margin-left: 8px;
-    color: #4D4D52;
+    color: #4d4d52;
     font-size: 1.4rem;
     font-weight: 500;
     letter-spacing: 0.014rem;
+}
+
+/* =================== Stats ================= */
+.stats {
+    margin-top: 75px;
+    padding: 50px 0 50px;
+}
+
+.stats .content {
+    width: 1017px;
+}
+
+.stats .row {
+    display: flex;
+}
+
+.stats .img-block,
+.stats .info {
+    width: 50%;
+}
+
+.stats .img-block {
+    position: relative;
+}
+
+.stats .img-block .image {
+    display: block;
+    margin-left: auto; /* just use for block */
+    width: 400px;
+    height: 460px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 40px 80px 155px 0px rgba(30, 103, 113, 0.03);
+}
+
+.stats .info {
+    padding: 79px 0 0 165px;
+}
+
+.stats .sub-title::before {
+    content: "";
+    width: 41px;
+    height: 4px;
+    position: absolute;
+    display: block;
+    border-radius: 12px;
+    background: #000339;
+    top: -10px;
+    left: 0;
+}
+
+.stats .info .sub-title {
+    position: relative;
+    width: 269px;
+    color: #000339;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 128.571%;
+}
+
+.stats .info .desc {
+    margin-top: 20px;
+    width: 309px;
+    color: #5a6473;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 187.5%;
+}
+
+.stats .img-block .stats-trend {
+    position: absolute;
+    padding: 45px  22px 40px;
+    width: 239px;
+    top: 0;
+    left: 0;
+    background: #FFF;
+    box-shadow: 90px 85px 100px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 0px 0px 12px 12px;
+}
+
+.stats .stats-trend .value {
+    color: #000339;
+    font-size: 2.6rem;
+    font-weight: 700;
+    letter-spacing: 0.26px;
+}
+
+.stats .stats-trend .icon {
+    margin-left: auto;
+}
+
+.stats .stats-trend .desc {
+    margin-top: 8px;
+    color: #A7A7A7;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.stats .separate {
+    margin-top: 25px;
+    width: 193.62px;
+    height: 1.2px;
+    background: #E9E9E9;
+}
+
+.stats .avatar-block {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 26px;
+    gap: 16px 14px;
+}
+
+.stats .avatar-group {
+    display: flex;
+}
+
+.stats .avatar {
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: -3px;
+    background: var(--bg-color, #fff);
+    color: #FFF;
+    font-size: 0.7rem;
+    font-weight: 450;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.145px;
+}
+
+.stats .avatar:first-child {
+    margin-left: 0;
+}
+
+.stats .row-qty {
+    margin-top: 110px;
+    justify-content: space-between;
+    padding: 0 32px;
+}
+
+.stats .qty {
+    color: #000;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.stats .qty-desc {
+    margin-top: 24px;
+    color: #7B8087;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* ============= Subscription ============== */
+.subscription {
+    margin-top: 90px;
+}
+
+.subscription .body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 370px;
+    border-radius: 20px;
+    background: #063183;
+}
+
+.subscription .info {
+    width: 670px;
+    max-width: 100%;
+    margin: 0 80px;
+}
+
+.subscription .sub-title {
+    color: #FFF;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.subscription .desc {
+    margin-top: 15px;
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 187.5%;
+}
+
+.subscription .btn {
+    margin-top: 20px;
+    min-width: 151px;
+    background: #FFF;
+    color: #002366;
+}
+
+.subscription img {
+    position: absolute;
+    bottom: 0;
+    right: 221px;
+}
+
+/* =============== Footer ================= */
+.footer {
+    margin-top: 55px;
+    padding: 50px 0 58px;
+}
+
+.footer .row {
+    display: flex;
+}
+
+.footer .row-top {
+    gap: 185px;    
+}
+
+.footer .heading {
+    color: #1C1C1D;
+    font-family: Lato, sans-serif;
+    font-size: 2.0rem;
+    font-weight: 700;
+}
+
+.footer .list, .footer .desc {
+    margin-top: 42px;
+}
+
+.footer .item {
+    margin-top: 18px;
+}
+
+.footer .item a {
+    color: #7A7A7E;
+    font-size: 1.6rem;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.footer .desc {
+    color: #7A7A7E;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 175%;
+}
+
+.footer .social {
+    margin-top: 40px;
+}
+
+.footer .row-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 81px;
+}
+
+.footer .logo {
+    width: 107px;
+    height: 24px;
+}
+
+.footer .copyright {
+    color: #C2C2C2;
+    font-size: 1.4rem;
+    font-weight: 400;
 }
