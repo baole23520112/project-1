@@ -51,6 +51,13 @@ a {
 }
 
 /* ===================== Header ================ */
+.fixed-header {
+    background: #e6f0ff;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
 .header {
     position: relative;
     background: #e6f0ff;
@@ -60,7 +67,8 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px; /* collapse */
+    /* padding-top: 38px; collapse */
+    padding: 12px 0;
 }
 
 .navbar ul {
@@ -96,7 +104,7 @@ a {
 }
 
 .hero {
-    margin-top: 130px;
+    padding-top: 130px;
 }
 
 .hero .info {
