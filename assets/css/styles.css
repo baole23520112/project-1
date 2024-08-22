@@ -187,7 +187,7 @@ a {
 	border-radius: 12px;
 }
 
-.client a:not(.client .images a:nth-child(3)):hover {
+.client a:hover {
 	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -317,7 +317,8 @@ a {
 }
 
 .featured .list {
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 	margin-top: 70px;
 	gap: 30px;
 }
@@ -516,7 +517,7 @@ a {
 
 .stats .qty {
 	color: #000;
-	font-size: 64px;
+	font-size: 6.4rem;
 	font-weight: 600;
 	line-height: 100%;
 }
@@ -587,7 +588,7 @@ a {
 }
 
 .footer .row-top {
-	gap: 185px;
+	column-gap: 185px;
 }
 
 .footer .heading {
