@@ -114,27 +114,27 @@
 		width: 100%;
 	}
 
-    .stats .img-block {
-        order: 2;
-    }
+	.stats .img-block {
+		order: 2;
+	}
 
-    .stats .info {
-        order: 1;
-        padding: 0;
-    }
+	.stats .info {
+		order: 1;
+		padding: 0;
+	}
 
-    .stats .sub-title {
-        width: 70%;
-    }
+	.stats .sub-title {
+		width: 70%;
+	}
 
-    .stats .info .desc {
-        width: 100%;
-        margin-bottom: 80px;
-    }
+	.stats .info .desc {
+		width: 100%;
+		margin-bottom: 80px;
+	}
 
-    .stats .row-qty {
-        flex-direction: row;
-    }
+	.stats .row-qty {
+		flex-direction: row;
+	}
 
 	.stats .qty {
 		font-size: 5rem;
@@ -164,6 +164,10 @@
 
 /* Mobile */
 @media screen and (max-width: 767px) {
+	.hide-on-mobile {
+		display: none;
+	}
+
 	.menu-drawer {
 		inset: 0 25% 0 0;
 		padding: 40px;
@@ -171,5 +175,76 @@
 
 	.navbar .actions {
 		display: none;
+	}
+
+	.hero {
+		padding-top: 35px;
+	}
+
+	.hero-wrap {
+		height: calc(100vh - 80px);
+	}
+
+	.hero .title {
+		margin-top: 24px;
+	}
+
+	.hero .desc {
+		width: 100%;
+	}
+
+	.client .images {
+		row-gap: 20px;
+	}
+
+	.list-guides {
+		flex-direction: column;
+		row-gap: 60px;
+	}
+
+	.featured .link {
+		display: none;
+	}
+
+	.featured .list {
+		grid-template-columns: 1fr;
+	}
+
+	.featured .view-all {
+		text-align: center;
+		margin-top: 50px;
+	}
+
+	.stats .img-block .image {
+		width: 100%;
+	}
+
+	.stats .stats-trend {
+		top: 20px !important;
+		left: 20px !important;
+	}
+
+	.stats .row-qty {
+		flex-direction: column;
+		align-items: center;
+		row-gap: 50px;
+	}
+
+	.subscription .info {
+		margin: 30px;
+	}
+
+	.subscription .body {
+		height: auto;
+	}
+
+	.footer .row-top {
+		grid-template-columns: 1fr;
+	}
+
+	.footer .row-bottom {
+		flex-direction: column;
+		align-items: flex-start;
+		row-gap: 24px;
 	}
 }
